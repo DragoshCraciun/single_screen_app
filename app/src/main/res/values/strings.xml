@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ark Ventures</string>
+
+    <!-- Title string. -->
+    <string name="Title">Ark Ventures</string>
+
+    <!-- Text string -->
+    <string name="TextPhone">(977) 144 - 11451</string>
+    <string name="TextWeb">www.arkventures.com.np</string>
+    <string name="TextAddress">Rastra Bank Chowk, Baluwatar,\nKathmandu, Nepal</string>
+    <string name="TextEmail">info@arkventures.com</string>
+
+    <!-- Caption string -->
+    <string name="CaptionPhone">Phone</string>
+    <string name="CaptionWeb">Website</string>
+    <string name="CaptionAddress">Address</string>
+    <string name="CaptionEmail">Email</string>
+
+</resources>

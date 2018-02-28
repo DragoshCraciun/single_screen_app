@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RootLayout"
+    tools:context="com.galacticcoders.arkventures.MainActivity">
+
+    <RelativeLayout style="@style/RootLayout">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            style="@style/ProfileImage" />
+
+        <ImageView style="@style/ProfileGradient" />
+
+        <RelativeLayout
+            style="@style/Bar"
+            android:layout_above="@id/content">
+
+            <TextView style="@style/TextTitle" />
+
+        </RelativeLayout>
+
+        <Button style="@style/ActionButton" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            style="@style/Content">
+
+            <View style="@style/Spacer" />
+
+            <RelativeLayout style="@style/ListItem">
+
+                <ImageView style="@style/IconCall" />
+
+                <LinearLayout style="@style/ListItemText">
+
+                    <TextView style="@style/TextPhone" />
+
+                    <TextView style="@style/CaptionPhone" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/Spacer" />
+
+            <View style="@style/Divider" />
+
+            <View style="@style/Spacer" />
+
+            <RelativeLayout style="@style/ListItem">
+
+                <ImageView style="@style/IconLocation" />
+
+                <LinearLayout style="@style/ListItemText">
+
+                    <TextView style="@style/TextAddress" />
+
+                    <TextView style="@style/CaptionAddress" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/Spacer" />
+
+            <View style="@style/Divider" />
+
+            <View style="@style/Spacer" />
+
+            <RelativeLayout style="@style/ListItem">
+
+                <ImageView style="@style/IconEmail" />
+
+                <LinearLayout style="@style/ListItemText">
+
+                    <TextView style="@style/TextEmail" />
+
+                    <TextView style="@style/CaptionEmail" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/Spacer" />
+
+            <View style="@style/Divider" />
+
+            <View style="@style/Spacer" />
+
+            <RelativeLayout style="@style/ListItem">
+
+                <ImageView style="@style/IconWeb" />
+
+                <LinearLayout style="@style/ListItemText">
+
+                    <TextView style="@style/TextWeb" />
+
+                    <TextView style="@style/CaptionWeb" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/Spacer" />
+
+            <View style="@style/Divider" />
+
+            <View style="@style/Spacer" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
