@@ -28,10 +28,12 @@
 
     <!-- Title dimen. -->
     <dimen name="TitlePaddingLeft">72dp</dimen>
-    <dimen name="TitleTextSize">45sp</dimen>
+    <dimen name="Title2PaddingLeft">10dp</dimen>
+    <dimen name="TitleTextSize">34sp</dimen>
 
     <!-- Text dimen. -->
     <dimen name="TextSize">16sp</dimen>
+    <dimen name="TextLong">14sp</dimen>
 
     <!-- Caption dimen. -->
     <dimen name="CaptionTextSize">14sp</dimen>

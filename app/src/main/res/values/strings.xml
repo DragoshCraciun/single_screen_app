@@ -2,11 +2,14 @@
     <string name="app_name">Ark Ventures</string>
 
     <!-- Title string. -->
-    <string name="Title">Ark Ventures</string>
+    <string name="Title1">ark </string>
+    <string name="Title2">ventures</string>
 
     <!-- Text string -->
     <string name="TextPhone">(977) 144 - 11451</string>
     <string name="TextWeb">www.arkventures.com.np</string>
+    <string name="TextTime">Sunday—Friday: 9:00AM–5:00PM \nSaturday : Off</string>
+    <string name="TextCompany">We specialize in market research, interfacing customers, and campaign implementations.</string>
     <string name="TextAddress">Rastra Bank Chowk, Baluwatar,\nKathmandu, Nepal</string>
     <string name="TextEmail">info@arkventures.com</string>
 
@@ -15,5 +18,7 @@
     <string name="CaptionWeb">Website</string>
     <string name="CaptionAddress">Address</string>
     <string name="CaptionEmail">Email</string>
+    <string name="CaptionCompany">Description</string>
+    <string name="CaptionTime">Hours</string>
 
 </resources>

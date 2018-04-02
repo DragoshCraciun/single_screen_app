@@ -16,15 +16,59 @@
             style="@style/Bar"
             android:layout_above="@id/content">
 
-            <TextView style="@style/TextTitle" />
+            <TextView
+                android:id="@+id/title1"
+                style="@style/TextTitle1" />
+
+            <TextView style="@style/TextTitle2" />
 
         </RelativeLayout>
 
-        <Button style="@style/ActionButton" />
+        <ImageView style="@style/ActionButton" />
 
         <LinearLayout
             android:id="@+id/content"
             style="@style/Content">
+
+            <View style="@style/Spacer" />
+
+            <RelativeLayout style="@style/ListItem">
+
+                <ImageView style="@style/IconCompany" />
+
+                <LinearLayout style="@style/ListItemText">
+
+                    <TextView style="@style/TextCompany" />
+
+                    <TextView style="@style/CaptionCompany" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/Spacer" />
+
+            <View style="@style/Divider" />
+
+            <View style="@style/Spacer" />
+
+            <RelativeLayout style="@style/ListItem">
+
+                <ImageView style="@style/IconTime" />
+
+                <LinearLayout style="@style/ListItemText">
+
+                    <TextView style="@style/TextTime" />
+
+                    <TextView style="@style/CaptionTime" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/Spacer" />
+
+            <View style="@style/Divider" />
 
             <View style="@style/Spacer" />
 
